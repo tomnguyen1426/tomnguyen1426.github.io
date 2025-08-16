@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#name{
+  font-size: 40pt;
+  padding-bottom: 5px;
+}
+#Engineer{
+  font-size: 18pt;
+  padding-bottom: 2vh;
+}
+#title{
+  width: 47vh; 
+}
+#Welcome{
+  height: 100vh;
+  padding-top: 37.5vh;
+  margin-left: 10vh;
+  justify-content: left; 
+  align-items: left;     
+  text-align: left;
+}
+@font-face {
+  font-family: "MyHelvetica";
+  src: url("fonts/Helvetica.ttf") format("truetype");
+}
+
+body {
+  font-family: "MyHelvetica", Arial, sans-serif;
+}
