@@ -1,24 +1,33 @@
+@font-face {
+  font-family: "MyHelvetica";
+  src: url("fonts/Helvetica.ttf") format("truetype");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: Arial, Helvetica, sans-serif
+html, body{
+  height: 100%;
+  font-family: Helvetica
 }
 
-#name{
+#name {
+  display:inline-block;
   font-size: 40pt;
-  padding-bottom: 5px;
 }
+
+
 #Engineer{
   font-size: 18pt;
-  padding-bottom: 2vh;
+  padding-bottom: 1.5vh;
 }
-#title{
-  width: 47vh; 
+
+#title{  /*this is for the line between name and software engineer */
+  width: 50vh; 
 }
+
 #Welcome{
   height: 100vh;
   padding-top: 37.5vh;
@@ -27,11 +36,18 @@ body{
   align-items: left;     
   text-align: left;
 }
-@font-face {
-  font-family: "MyHelvetica";
-  src: url("fonts/Helvetica.ttf") format("truetype");
-}
 
-body {
-  font-family: "MyHelvetica", Arial, sans-serif;
+#ViewWork{
+  padding: 0.5rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: none;
+  background-color: black;
+  color:white;
+  width: 7rem;      /* lock width */
+  height: 2rem;      /* lock height */
+  font-size: 0.75rem;   /* change only text size */
+  font-weight: bold ;
 }
