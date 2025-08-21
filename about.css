@@ -1,0 +1,126 @@
+
+#about-me{
+    height: 100vh;
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+}
+
+.about-item{
+     position: relative;
+}
+#titleMe{
+    padding: 12vh 12vh;
+    font-size: 80px;
+}
+#one{
+    position: absolute;
+    top: 12vh;
+    left: 70vw;
+    font-weight: bold;
+}
+#GROWTH{
+    position:absolute;
+    top:12vh;
+    left: 72vw;
+    font-weight: bold;
+}
+
+#one-Words{
+    position:absolute;
+    white-space: pre;
+    top:15vh;
+    left: 70vw;
+    line-height: 140%;
+}
+#two, #Academic{
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
+    font-weight: bold;
+}
+
+#Academic{
+    white-space:pre;
+    left: 42vw;
+    font-weight: bold;
+}
+#two-Words{
+    position:absolute;
+    white-space:pre;
+    top: 33vh;
+    left: 40vw;
+    line-height: 140%;
+
+}
+
+#three,#SCHOOL{
+    position: absolute;
+    top: 46vh;
+    left: 70vw;
+    font-weight: bold;
+}
+#SCHOOL{
+    left:72vw;
+    font-weight: bold;
+}
+
+#three-Words{
+    position:absolute;
+    white-space:pre;
+    top:49vh;
+    left: 70vw;
+    line-height: 140%;
+}
+
+#me{
+    height:45%;
+    width: 58%;
+    position:absolute;
+    left: 40vw;
+    top:46vh;
+
+}
+
+#four, #CURRENT{
+    position:absolute;
+    left: 12vh;
+    top:79vh;
+    font-weight: bold;
+}
+
+#CURRENT{
+    position:absolute;
+    left:15vh;
+}
+#four-Words{
+    position:absolute;
+    white-space:pre;
+    top: 82vh;
+    left: 12vh;
+    line-height: 140%;
+}
+
+#five,#PERSONAL{
+    position:absolute;
+    top:79vh;
+    left:70vw;
+    font-weight: bold;
+}
+#PERSONAL{
+    left:72vw;
+}
+
+#five-Words{
+    position:absolute;
+    white-space:pre;
+    top:82vh;
+    left:70vw;
+    line-height: 140%;
+}
+
+#cute-face {
+    position: absolute;
+    top:46vh;
+    left:12vh
+}
