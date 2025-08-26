@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color:#FFFEFE;
+  background-color:transparent;
 
 }
 
@@ -57,14 +57,12 @@ html, body{
   font-size: 0.75rem;   /* change only text size */
   font-weight: bold ;
 }
-
-
 .wrapper_Click_Me {
-  position: fixed;    
+  position: absolute;    
   top: 92%;      
   left: 50%;
   transform: translateX(-50%);
-  text-align: center;      
+  text-align: center;
 }
 
 #clickMe {
@@ -92,3 +90,5 @@ html, body{
     transform: translateY(6px);
   }
 }
+
+
