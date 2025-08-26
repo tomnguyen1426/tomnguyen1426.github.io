@@ -10,9 +10,10 @@
 </head>
 <body>
 <section id = "Welcome">
-  <h1 id = "name">Hi, I'm Tom Nguyen</h1>
-  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-
+  <div class = title-Block>
+    <h1 id = "name">Hi, I'm Tom Nguyen</h1>
+    <hr id = "title">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script>
     const app = document.getElementById('name');
     const typewriter = new Typewriter(app, {
@@ -21,12 +22,21 @@
     });
     typewriter.typeString("Hi, I'm Tom Nguyen").start();
   </script>
+
+
+
+  </div>
   
-  <hr id = "title">
+  
+  
+
   <p id = "Engineer">Software Engineer</p>
-  <button id="ViewWork">View My Work</button> 
-  <p id = "clickMe">Click Me!</p>
-  <img id = "down-arrow" src = "down.png" alt = "scroll down">
+  <button id="ViewWork">View My Work</button>
+  <div class = wrapper_Click_Me>
+    <p id = "clickMe">Click Me!</p>
+    <img id = "down-arrow" src = "down.png" alt = "scroll down">
+  </div> 
+  
 </section>
 
 
